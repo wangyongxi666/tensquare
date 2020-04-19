@@ -1,0 +1,19 @@
+#sentinel哨兵模式配置
+#spring:
+#  redis:
+#    password: 1234
+#    sentinel:
+#      master: mymaster
+#      nodes: 192.168.0.130:26379
+
+#cluster 内置集群配置文件
+#spring:
+#  redis:
+#    cluster:
+#      nodes: 192.168.0.130:7001,192.168.0.130:7002,192.168.0.130:7003,192.168.0.130:7004,192.168.0.130:7005,192.168.0.130:7006
+
+#Twemproxy 模式分片
+spring:
+  redis:
+    host: 192.168.0.130
+    port: 22121
